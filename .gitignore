@@ -12,8 +12,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+temp_auto_push.bat
 # IDE files
-.vscode
 .DS_Store
 .idea
 
@@ -27,4 +27,5 @@
 /vendor/
 vendor/
 vendor
-/Godeps/
+/Godeps/.gitignore
+branch_structure.json
